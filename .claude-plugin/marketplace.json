@@ -1,0 +1,17 @@
+{
+  "name": "sanbuilder-gamekit",
+  "owner": {
+    "name": "Sander Chen"
+  },
+  "description": "H5 mobile game capability pack for Sanbuilder.",
+  "plugins": [
+    {
+      "name": "sanbuilder-gamekit",
+      "source": {
+        "source": "github",
+        "repo": "sander217/sanbuilder-gamekit"
+      },
+      "description": "Add game concept, core-loop, playable prototype, and mobile-web QA stages."
+    }
+  ]
+}

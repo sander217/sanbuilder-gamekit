@@ -1,0 +1,9 @@
+{
+  "name": "sanbuilder-gamekit",
+  "version": "0.1.0",
+  "description": "Extend Sanbuilder with approval-gated H5 mobile game concept, loop, prototype, implementation, and QA artifacts.",
+  "author": {
+    "name": "Sander Chen"
+  },
+  "repository": "https://github.com/sander217/sanbuilder-gamekit"
+}
