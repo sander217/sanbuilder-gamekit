@@ -1,0 +1,28 @@
+{
+  "name": "sanbuilder-gamekit",
+  "version": "0.1.0",
+  "description": "Extend Sanbuilder with approval-gated H5 mobile game concept, loop, prototype, implementation, and QA artifacts.",
+  "skills": "./skills/",
+  "author": {
+    "name": "Sander Chen"
+  },
+  "repository": "https://github.com/sander217/sanbuilder-gamekit",
+  "homepage": "https://github.com/sander217/sanbuilder-gamekit#readme",
+  "interface": {
+    "displayName": "Sanbuilder GameKit",
+    "shortDescription": "Design and validate H5 mobile games.",
+    "longDescription": "Use the connected Sanbuilder core to explore game concepts, validate the core loop, build an approval-bound playable prototype, and run mobile-web game QA.",
+    "developerName": "Sander Chen",
+    "category": "Developer Tools",
+    "capabilities": [
+      "H5 game concept exploration",
+      "Core-loop specification",
+      "Playable prototype contracts",
+      "Mobile-web game QA"
+    ],
+    "defaultPrompt": [
+      "Use the connected Design Harness and GameKit to design an H5 mobile game.",
+      "Use GameKit to explore three playable directions before implementation."
+    ]
+  }
+}

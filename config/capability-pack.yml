@@ -1,0 +1,38 @@
+schema: 1
+id: sanbuilder-gamekit
+version: 0.1.0
+extends:
+  plugin: design-harness-agent
+  minimumVersion: 0.2.0
+
+appliesTo:
+  productKinds:
+    - h5-mobile-game
+    - browser-game
+
+stages:
+  concept-exploration:
+    after: research
+    before: direction-lock
+    artifactSchema: schemas/game-concept.schema.json
+  loop-definition:
+    after: direction-lock
+    before: design-lock
+    artifactSchema: schemas/game-loop.schema.json
+  playable-prototype:
+    after: design-lock
+    before: build-proposal
+    artifactSchema: schemas/playable-prototype.schema.json
+    requiresHumanSelection: true
+  h5-game-qa:
+    after: product-qa
+    before: product-pr
+    artifactSchema: schemas/h5-game-qa.schema.json
+    blocking: true
+
+rules:
+  - Game concepts must differ in mechanics, loop, progression, input, or risk-reward—not only art style.
+  - A prototype tests a named hypothesis and is never production truth.
+  - Approval binds the selected game direction, loop, prototype digest, product base commit, and acceptance criteria.
+  - Product writes remain owned by the core implementation grant.
+  - Performance budgets are measured on declared target devices.
