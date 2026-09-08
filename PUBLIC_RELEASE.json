@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "target": "gamekit",
+  "repository": "sander217/sanbuilder-gamekit",
+  "plugin": "sanbuilder-gamekit",
+  "version": "0.1.0",
+  "sourceCommit": "296a90df1a18da52536f3939365eaea9d6213c33",
+  "generatedAt": "2026-09-08",
+  "files": {
+    ".agents/plugins/marketplace.json": "2ca49fcca8891f94af294377614b4efefee16a98278d1a982ba245521d56a304",
+    ".claude-plugin/marketplace.json": "7c8a5c211e8590ff9434b9c6b6b7188b599cc77cf1e31159ae863ced97be41c8",
+    ".claude-plugin/plugin.json": "ffb57d56dd2b7c1591fa76a7d2f3f6350d2a41340e50ca53307809fc62f5d2d5",
+    ".codex-plugin/plugin.json": "b875a520bd545c7d1b736ace0bc779d01e1101706b438339e9d796b48d3ed70c",
+    ".gitignore": "6c7d15d2ab1a0b51ebcae7e88b9ad01f0713d0833bc2dbe8f3bcc7a81b66b344",
+    "AGENTS.md": "4f95dd999374a5a4d584aa8c73dd81c03e942a16ad8278b456cffa43d4c85653",
+    "CHANGELOG.md": "845eca88e50856ae1ef8c53a20328393a0b82d93218646faf83c8da07375eb64",
+    "CLAUDE.md": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+    "config/capability-pack.yml": "189aa947dd49dd8dfe6dd12efe8d08ff0c1087d5dd5b3e2ea9d51f10f0d6e6b7",
+    "package-lock.json": "ad2b2a4ca55606e4e2759a56a63134d9951cec443ca27184cf622931be263711",
+    "package.json": "34bb1dfce23c41e13775571a196bbb5eb3d0cbae89cad32929cd1afb1fe4c6bc",
+    "README.md": "497605bec75ee3acde6d951254beb763f55518c081b33e8b1d1457d5a93df240",
+    "schemas/game-concept.schema.json": "bfd8bad727e9daf7f4f148e275335eb33feadf6a492159a694bb9a114d7ba1e4",
+    "schemas/game-loop.schema.json": "e1ba4594c20368585a07343600aa1a42be4463ef6ff34c18f13e0fcbf2f9cb7e",
+    "schemas/h5-game-qa.schema.json": "150aadd8ded89735b617d7e002f9c6a86c063ca341d7d820634cc8cd8d485064",
+    "schemas/playable-prototype.schema.json": "62dde94ba7a166c7eacb0c7d8b92fc6189735c25127cfbb63fc3a3ee16b2c29d",
+    "scripts/validate-gamekit.mjs": "6082e5ff6b436c7e05382ad6556cf1c07dbb91207d480a9a5a75f803daf7f92a",
+    "skills/h5-game-design/SKILL.md": "5ef3b1c24145fd921a605db064c91e65bce4f6696d265bf75a230daca02a3fd1",
+    "tests/gamekit.test.mjs": "b3cd6531021da16402ce6df7047872cc6a8028399db92ef2cac8d6fa514a8e81"
+  }
+}
